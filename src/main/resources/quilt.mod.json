@@ -1,11 +1,11 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.donotdoughnut",
+		"id": "epic_nareg_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "W Mod",
 			"description": "A short description of your mod.",
 			"contributors": {
 				"Me!": "Owner"
