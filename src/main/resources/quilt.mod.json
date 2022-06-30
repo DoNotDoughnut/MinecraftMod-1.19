@@ -23,6 +23,7 @@
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
 			"init": "io.github.donotdoughnut.wmod.Mod",
+			"client_init": "io.github.donotdoughnut.wmod.Mod",
 			"modmenu": [
 				"io.github.donotdoughnut.wmod.impl.ModMenu"
 			]

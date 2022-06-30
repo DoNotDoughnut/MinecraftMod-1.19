@@ -1,4 +1,8 @@
 {
   "text.autoconfig.wmod.title": "W Mod",
-  "text.autoconfig.wmod.option.vedant": "Vedant"
+  "text.autoconfig.wmod.option.vedant": "Vedant",
+
+  "block.wmod.jungle_ore": "Jungle Ore",
+  "item.wmod.uncut_jungle_gem": "Uncut Jungle Gem",
+  "item.wmod.jungle_gem": "Jungle Gem"
 }

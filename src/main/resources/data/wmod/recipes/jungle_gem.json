@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wmod:uncut_jungle_gem"
+  },
+  "result": "wmod:jungle_gem"
+}
