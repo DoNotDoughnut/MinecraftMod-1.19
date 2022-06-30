@@ -2,24 +2,30 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "io.github.donotdoughnut",
-		"id": "epic_nareg_mod",
+		"id": "wmod",
 		"version": "${version}",
 		"metadata": {
 			"name": "W Mod",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Me!": "Owner"
+				"Johnny": "W",
+				"Nareg": "W",
+				"Rhys": "W",
+				"Vedant": "his mom was available"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
+				"homepage": "https://www.youtube.com/watch?v=sTpKu6TX6n8",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/wmod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.donotdoughnut.wmod.Mod"
+			"init": "io.github.donotdoughnut.wmod.Mod",
+			"modmenu": [
+				"io.github.donotdoughnut.wmod.impl.ModMenu"
+			]
 		},
 		"depends": [
 			{
@@ -36,5 +42,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "wmod.mixins.json"
 }
